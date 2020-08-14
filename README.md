@@ -20,7 +20,7 @@ During the edit:
 | HWND hwnd | A window handle to the List-View control|
 | int id | An identifier of the control |
 | int iItem | A zero-based index of the List-View item |
-| int iSubItem | An one-based index of the List-View subitem |
+| int iSubItem | A zero-based index of the List-View subitem |
 
 ## Return value
 **ListView-EditSubLabel** returns FALSE if it fails to create a WC_EDIT control, otherwise it returns TRUE
